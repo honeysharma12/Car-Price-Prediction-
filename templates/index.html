@@ -9,7 +9,7 @@
 
 <body>
 
-    <div style="color:#880e4f">
+    <div >
         <form action="{{ url_for('predict')}}" method="post">
             <h2>Car Price Predictive analysis</h2>
             <h3>Year</h3>
@@ -47,8 +47,27 @@
     <style>
         body {
             background-color: #009688;
+            background-image: url("https://images.pexels.com/photos/244206/pexels-photo-244206.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+            background-repeat: no-repeat;
+            background-size: cover;
             text-align: center;
             padding: 0px;
+            color: black;
+        }
+
+        h2 
+        {
+            color: darkmagenta;
+            margin-top: 50px;
+            margin-bottom: 70px;
+            font-weight: bolder;
+            font-size: 3rem;
+        }
+         h3 {
+            background-color: black;
+            color: wheat;
+            width: 30%;
+            margin: 20px auto;
         }
         
         #research {
